@@ -1,1 +1,5 @@
-docker run -i -t alpine /bin/sh
+# 'exit' from alpine sh to exit cleanly
+#  if you use (ctrl-P ctrl-Q) to exit run:
+#  docker stop <container-id>
+#  docker start <container-id>
+docker run -it --rm alpine /bin/sh

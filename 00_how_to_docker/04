@@ -1,1 +1,8 @@
-docker pull image hello-world
+# If daemon not running remove Char:
+#   docker-machine stop Char
+#   docker-machine rm Char
+# Then redo steps 01-03
+# If daemon still does not run even with env variables set:
+#   docker-machine ssh Char
+# Then copy commands in one by one
+docker pull hello-world

@@ -1,0 +1,4 @@
+# replace token with one output from 20
+docker-machine ssh Aiur $(docker swarm join \
+    --token SWMTKN-1-181tzk46weqttz9pffy4wwri4wseiy0xjbuoe8jb52llkvi42c-1xuwgmh16mevnwtqjnrfteehs \
+      192.168.99.100:2377)

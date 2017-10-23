@@ -1,0 +1,5 @@
+# if doesn't run through daemon run:
+#   docker-machine ssh Char
+#     docker service rm $(docker service ls --format "{{.ID}}")
+
+docker service rm $(docker service ls -q)

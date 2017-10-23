@@ -1,1 +1,1 @@
-me lair --link spawning-pool:mysql -p 8080:80 -d wordpreiss
+docker run --detach --name lair -p 8080:80 --link spawning-pool:mysql wordpress

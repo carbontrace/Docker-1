@@ -1,1 +1,1 @@
-docker inspect --format='{{.NetworkSettings.IPAddress}}' overlord
+docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' overlord

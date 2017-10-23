@@ -1,1 +1,9 @@
-apt-get update && apt-get -y install build-essential vim git
+# previous comman setup alpine container which uses 'apk'
+# to test this on debian run:
+#
+# docker run -it --rm debian /bin/sh
+apt-get update && apt-get -y upgrade
+apt-get -y install build-essential vim git
+#
+# alpine equivalent:
+#   apk add --update alpine-sdk && add vim git
