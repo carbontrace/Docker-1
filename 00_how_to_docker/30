@@ -1,1 +1,1 @@
-exitdocker service scale marines=20
+docker service scale marines=20
